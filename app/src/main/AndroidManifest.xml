@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phenix.haroz.rgukt_n">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Services" />
+        <activity android:name=".Upload_Plumber" />
+        <activity android:name=".Upload_Elect" />
+        <activity android:name=".Upload_Carpentar" />
+        <activity android:name=".Technician">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tech_login" />
+        <activity android:name=".Tech_services" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".AdminServices" />
+        <activity android:name=".Tech_car" />
+        <activity android:name=".Tech_plum" />
+        <activity android:name=".TechPlumRepair" />
+        <activity android:name=".user_status" />
+        <activity android:name=".TechCarRepair" />
+        <activity android:name=".TechEleRepair" />
+        <activity android:name=".AdminPlumber" />
+        <activity android:name=".AdminCarpentar" />
+        <activity android:name=".AdminElectrical" />
+        <activity android:name=".UserStatus" />
+        <activity android:name=".Contact" />
+        <activity android:name=".PendingTech" />
+        <activity android:name=".PendingElec" />
+        <activity android:name=".PendingCar"></activity>
+    </application>
+
+</manifest>

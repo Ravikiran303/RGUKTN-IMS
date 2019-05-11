@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">RGUKT-N</string>
+    <string name="prompt_emaill">Enter UserID</string>
+    <string name="prompt_mobilenumber">Mobile Number</string>
+    <string name="email_id">N*****@rguktn.ac.in</string>
+    <string name="user_id">Enter Your ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_mobile">This mobile number is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="title_activity_my_service">MyService</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="electrical">electrical</string>
+    <string name="plumbing">plumbing</string>
+    <string name="carpentry">carpentry</string>
+    <string name="upload_image">Click Here to Upload Image</string>
+    <string name="Block">Enter the Block.Ex:A2,P1..etc</string>
+    <string name="Floor">Enter Floor No.Ex:0,1,2,...etc</string>
+    <string name="Room">Enter Room No.Ex:10,104...etc</string>
+    <string name="try_again">Reconnect</string>
+
+    <string-array name="Plumb">
+        <item>--Select Component--</item>
+        <item>Tap</item>
+        <item>Wash Basin</item>
+        <item>Urinals</item>
+        <item>Lavatory</item>
+        <item>Water Cooler</item>
+        <item>Water Leakage</item>
+    </string-array>
+    <string-array name="Carpen">
+        <item>--Select Component--</item>
+        <item>Door</item>
+        <item>Window</item>
+    </string-array>
+    <string-array name="Elect">
+        <item>--Select Component--</item>
+        <item>Fan</item>
+        <item>Light</item>
+        <item>Socket</item>
+        <item>projector</item>
+        <item>Speaker</item>
+    </string-array>
+    <string name="Signout">Signout</string>
+    <string name="status">Status</string>
+    <string-array name="block_no">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="floors">
+        <item>--Select Floor--</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="blockNames">
+        <item>A</item>
+        <item>K</item>
+        <item>I</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>LIBRARY</item>
+        <item>SHOPPING COMPLEX</item>
+        <item>HOSPITAL</item>
+        <item>DINING HALL</item>
+        <item>CAFETERIA</item>
+        <item>SAC BUILDING</item>
+    </string-array>
+    <string-array name="position">
+        <item>--Select Position--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="service">
+        <item>--CHOOSE TYPE--</item>
+        <item>REPAIR</item>
+        <item>REPLACE</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
